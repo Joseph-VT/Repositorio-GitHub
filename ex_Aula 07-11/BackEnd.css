@@ -1,0 +1,59 @@
+#Cabecalho{
+    height: 150px;
+    width: 1000px;
+    float: top;
+    background-color: burlywood;
+}
+
+#MenuNav{
+    height: 200px;
+    width: 1000px;
+    background-color: bisque;
+}
+
+#Titulo{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    text-shadow: 2px 1px 5px;
+    background-color: aliceblue;
+}
+
+#Conteudo{
+    height: 1350px;
+    width: 1000px;
+    background-color:aqua;
+    float: left;
+}
+
+.Texto{
+    height: 210px;
+    width: 1000px;
+    background-color: whitesmoke;
+    float: left;
+    text-align: justify;
+}
+
+.Imagem{
+    height: 400px;
+    width: 333.33px;
+    background-color: chartreuse;
+    float: left;
+}
+
+.Video{
+    height: 350px;
+    width: 500px;
+    background-color: crimson;
+    float: left;
+}
+
+#Cabecalho img{
+    height: 100%;
+    width: 100%;
+}
+
+.Imagem img{
+    height: 100%;
+    width: 100%;
+}

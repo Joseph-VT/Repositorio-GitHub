@@ -1,0 +1,258 @@
+HTML significa "Linguagem de Marcação de HiperTexto" (HyperText Markup Language). Esta seção objetiva abordar os fundamentos de hipertexto e sua relação
+com a linguagem HTML. A próxima seção aborda as características de HTML como linguagem de marcação. <br>
+<I>HTML</I> é uma <B>linguagem de marcação</B>
+
+<p> Tecnicamente, o conceito de hipertexto é bastante simples: é um documento eletrônico composto por páginas e ligações entre elas (links). HTML é uma linguagem para escrever este tipo de documento. Existem outras linguagem para a escrita de hipertexto, mas HTML é uma linguagem específica, adotada como padrão para a escrita de hipertextos a serem publicados na Web (consultar seção anterior, HTML: uma linguagem para Web). Os hipertextos escritos nesta linguagem são denominados sites ou homepages. </p>
+
+<p>Site e homepage são denominação empregadas especificamente para os hipertextos da Web. Em geral, estes termos são utilizados como sinônimos. Mas há diferença sutil entre eles. Homepage refere-se principalmente a um hipertexto sobre alguém, uma empresa ou instituição, e geralmente, carrega em si a idéia de ser um hipertexto pequeno, com poucas páginas. Site é um termo mais genérico sendo utilizado para designar todo tipo de hipertexto (inclusive os pessoais), e geralmente refere-se a hipertextos grandes, com muitas páginas. </p>
+
+<P>Navegadores antigos tinham uma frase gloriosa: <br>
+<I>"Navegar é preciso; viver não é preciso."</I> <br>
+Quero para mim o espírito desta frase,
+transformada a forma para a casar com o que eu
+sou: Viver não é necessário; o que
+é necessário é <B>criar</B>.
+"Sintaxe P align="right">(Fernando Pessoa)" </p>
+<P align="right">(Fernando Pessoa)</P>
+<p> Observe, no exemplo acima, que o alinhamento do segundo parágrafo é à direita da página. Observe, na etiqueta inicial do segundo parágrafo (P align="right"), que o "alinhamento do parágrafo" corresponde ao atributo "align"; e "à direita" corresponde ao valor "right". 
+
+<p> O estudo da linguagem HTML consiste, principalmente, na investigação dos elementos, etiquetas, atributos e valores que compõem esta linguagem. A figura abaixo (correspondente ao fragmento de código do segundo parágrafo do exemplo acima) identifica estes conceitos fundamentais para a compreensão de um código escrito em HTML. 
+<br>
+<b>P</b> = Etiqueta Inicial <br>
+<b>Align</b> = Atributo <br>
+<b>"Right"</b> = Valor <br>
+<b>(...)</b> = Elemento "p" Paragráfo <br>
+<b>Fernando Pessoa</b> = Conteúdo <br>
+<b>/P</b> = Etiqueta Final <br>
+Convenções. As etiquetas, os atributos e valores podem ser escritos tanto em maiúsculo como em minúsculo, e até misturado. Desta forma, <HTML> <html> ou <HtmL> representam a mesma etiqueta. <br> <br>
+
+Observe que no meio deste código encontram-se certos "símbolos estranhos" como <b> P, I, /I, B, /B </b>. Estes símbolos são denominados etiquetas e são utilizados para indicar como o texto será visualizado. Por exemplo, a etiqueta <b> I </b> marca o início do texto em Itálico e a etiqueta <b> /I </b> marca o fim do texto em itálico.
+
+<p> O termo original em inglês, browser, se traduzido ao pé-da-letra, significa  "folheador". Esta denominação tem origem na metáfora que estabelece a comparação entre o hipertexto e o livro - como se o usuário, ao transitar entre as páginas do hipertexto, estivesse folheando as páginas de um livro.
+O termo Navegador tem origem na metáfora que estabelece a comparação entre o ato de transitar entre as páginas do hipertexto e ato de navegar. </p>
+
+<p> Observe que a formatação do texto é obtida com o uso de etiquetas - símbolos da linguagem HTML identificados pelos sinais "< >" (se for a etiqueta inicial) ou pelos sinais "</ >" (se for a etiqueta final). Por exemplo, a etiqueta I marca o início do texto a ser apresentado em itálico, e a etiqueta /I marca o fim da formatação em itálico. Portanto, tudo o que estiver entre este par de etiquetas I e /I será apresentado em itálico. Assim também funcionam as etiquetas B e /B, que marcam o início e o fim do texto a ser apresentado em negrito (Bold). </p> 
+
+<br> Etiqueta é a tradução aqui adotada para o termo tag (que é o termo original utilizado nas especificações da linguagem HTML). Alguns autores adotam outras traduções como marcador, rótulo, comando ou mesmo o termo original tag.
+
+<p> A linguagem HTML especifica elementos para construir estruturas como: formatação de texto, parágrafo, lista, tabela, etc. Cada elemento, em geral, é composto por três partes: etiqueta inicial + conteúdo + etiqueta final. O elemento itálico exemplifica esta estrutura genérica:
+
+<p align="center"> I ............ Texto .......... /I </i> <br>
+Etiqueta _  Conteúdo  _  Etiqueta
+<br> Inicial..........................Final <br>
+
+Elemento em I (Italico). </p>
+<P>A linha horizontal é construída
+com o elemento vazio HR.</P>
+<HR>
+
+<p> A estrutura principal deve iniciar com a etiqueta <b>HTML</b> e terminar com a etiqueta <b>/HTML</b>. O cabeçalho, delimitado pelas etiquetas <b>HEAD</b> e <b>/HEAD</b>, destina-se a conter informações sobre o documento - por exemplo, o título do documento (que é construído com o elemento <b>TITLE</b> e aparece no título da janela do navegador). O corpo do documento, delimitado pelas etiquetas <b>BODY</b> e <b>/BODY</b>, destina-se ao conteúdo da página.
+
+Editor em html:		<font color="blue"> http://www.nce.ufrj.br/ginape/cursohtml/conteudo/editor/editor.htm </font>
+
+Atributo align
+
+O atributo align (alinhamento) especifica a disposição do texto dentro do parágrafo.
+
+<p align="left"> Esquerda <br> p align="left"
+<p align="center"> Centro Meio <br> p align="center"
+<p align="right"> Direita <br> p align="right"
+<br><br>
+
+<p align="justify"> Justificativa ? p align="justify"
+<hr>
+<p> O texto pré-formatado, construído com o elemento PRE, apresenta o texto exatamente como digitado no código original da página HTML - ao contrário do que ocorre com o elemento P (parágrafo) que ignora espaços em branco e as quebras de linha. <br>
+<PRE>
+                   AUTOPSICOGRAFIA
+                  (Fernando Pessoa)
+
+            O poeta é um fingidor.
+             Finge tão completamente
+              Que chega a fingir que é dor
+               A dor que deveras sente.
+
+                 E os que lêem o que escreve,
+                  Na dor lida sentem bem,
+                   Não as duas que ele teve,
+                    Mas só a que eles não têm.
+
+                      E assim nas calhas de roda
+                       Gira, a entreter a razão,
+                        Esse comboio de corda
+                         Que se chama coração.
+</PRE>
+<hr>
+<p> Cabeçalho. Um texto geralmente é organizado em capítulos, seções, tópicos etc. O elemento H (Heading = cabeçalho) pode ser utilizado para construir os cabeçalhos das seções de um texto. Existem seis níveis de cabeçalhos, de H1 (o primeiro e mais importante nível) a H6 (o último e menos importante). O cabeçalho, assim como o parágrafo, também admite o atributo align.
+
+<p> Formatação de texto (estilo físico x estilo lógico). Estude o exemplo observando quais os elementos utilizados para formatar a poesia de Ricardo Reis:
+
+<pre> Existem vários elementos para a formatação do texto: <font color="Purple">Padrão (TEAMO TALITA MARIA)</font>
+
+
+<font color="Green"> B		Negrito (Bold) <b>(TEAMO TALITA MARIA)</b></font>
+
+<font color="Red"> I		Itálico <i>(TEAMO TALITA MARIA)</i></font>
+
+<font color="Green"> U		Sublinhado (Underlined) <u>(TEAMO TALITA MARIA)</u></font>
+
+<font color="Red"> STRIKE   	Riscado <strike>(TEAMO TALITA MARIA)</strike></font>
+
+<font color="Green"> SUP		Sobrescrito <sup>(TEAMO TALITA MARIA)</sup></font>
+
+<font color="Red"> SUB		Subscrito <sub>(TEAMO TALITA MARIA)</sub></font>
+
+<font color="Green"> BIG		Fonte Grande <big>(TEAMO TALITA MARIA)</big></font>
+
+<font color="Red"> SMALL		Fonte Pequena <small>(TEAMO TALITA MARIA)</small></font>
+
+<font color="Green"> TT		Fonte Monoespaçada <tt>(TEAMO TALITA MARIA)</tt></font>
+
+<font color="Red"> Cite		Fonte por Citação <cite>(TEAMO TALITA MARIA)</cite></font></pre>
+
+
+<p> Todos estes elementos são do tipo "elemento de conteúdo" - ou seja, é preciso especificar a etiqueta inicial e etiqueta final para marcar o início e o fim da formatação. As formatações podem ser utilizadas em conjunto. Por exemplo, para obter um texto formatado em negrito e em itálico. <br>
+<B><I>...texto...</I></B>
+
+<P>Há 61 anos morria, em Lisboa,
+Fernando Pessoa, cuja obra, por sua complexidade
+e beleza, deu novo sentido e novo peso à
+literatura de língua portuguesa. Falar desse
+poeta e dessa obra equivale a mergulhar num
+atordoante labirinto de espelhos. O que é
+previsível, quando se lê o que ele mesmo disse
+em carta a João Gaspar Simões: <CITE>"O estudo
+a meu respeito, que peca só por se basear,
+como verdadeiros, em dados que são falsos por eu,
+artisticamente, não saber senão mentir"</CITE>(...)
+
+<P align="right">(Fragmento do artigo "A Razão
+Poética", de Ferreira Gullar.<BR> Folha de São
+Paulo, Caderno Mais!, 10 nov. 1996)</P><br>
+
+<p>No exemplo acima, a frase "O estudo a meu respeito, que peca só por se basear, como verdadeiros, em dados que são falsos por eu, artisticamente, não saber senão mentir" é uma citação dentro do artigo de Ferreira Gullar. O elemento <b>CITE</b> (citação) foi utilizado para diferenciar esta citação do resto do texto. Observe que a formatação, neste caso, relaciona-se com o tipo de informação (citação), e não necessariamente com a aparência do texto. 
+
+
+<pre> Este e outros elementos constituem os estilos lógicos:<font color="Purple"> Padrão (TEAMO TALITA MARIA)</font>
+
+<font color="Green"> EM		Ênfase (EMphasis)<em>(TEAMO TALITA MARIA)</em></font>
+
+<font color="Red"> STRONG  	Ênfase forte<strong>(TEAMO TALITA MARIA)</strong></font>
+
+<font color="Green"> CITE		Citação ou referência<cite>(TEAMO TALITA MARIA)</cite></font>
+
+<font color="Red"> DFN		Definição<dfn>(TEAMO TALITA MARIA)</dfn></font>
+
+<font color="Green"> SAMP		Exemplo (SAMPle)<samp>(TEAMO TALITA MARIA)</samp></font>
+
+<font color="Red"> CODE		Fragmento de código (de programa de computador)<code>(TEAMO TALITA MARIA)</code></font>
+
+<font color="Green"> KBD		Entrada de texto pelo teclado (KeyBorD)<kdb>(TEAMO TALITA MARIA)</kdb></font>
+
+<font color="Red"> VAR		Instância de variável (VARiable)<var>(TEAMO TALITA MARIA)</var></font>
+
+<font color="Green"> ABBR		Abreviação<abbr>(TEAMO TALITA MARIA)</abbr></font>
+
+<font color="Red"> ACRONYM   	Acrônimo<acronym>(TEAMO TALITA MARIA)</acronym></font></pre>
+
+<p>Devo utilizar estilo físico ou lógico?
+Em geral, o estilo físico é mais utilizado do que o estilo lógico. Com o estilo físico há maior controle sobre a formatação do texto - o que não ocorre com o estilo lógico (que indica o tipo de informação, não a sua aparência).
+
+<p>Fonte. O elemento FONT possibilita modificar o tipo, o tamanho e a cor da fonte. Estude o exemplo:
+
+<P><FONT face="Tempus Sans ITC" size="6">Língua</FONT><BR>
+<FONT face="Verdana, Arial" size="2">(Caetano Veloso)</FONT><BR>
+</P>
+<P>"(...)Gosto do 
+<FONT face="Impact">Pessoa</FONT> na pessoa<BR>
+Da 
+<FONT color="fuchsia"><B>rosa</B></FONT> no Rosa<BR>
+<FONT face="Monotype Corsiva" size="4">E sei que a 
+<FONT color="red">poesia</FONT> está para a 
+<FONT color="blue">prosa</FONT></FONT><BR>Assim como o 
+<FONT color="red" face="Impact">amor</FONT> está para a 
+<FONT color="blue" face="Impact">amizade</FONT><BR>E quem há de negar que esta lhe é 
+<FONT face="Copperplate Gothic Light">superior</FONT><BR>E deixe os 
+<FONT face="Matisse ITC">portugais</FONT>
+<FONT color="gray">morrerem</FONT>
+<FONT color="silver">à míngua</FONT><BR>
+<FONT face="Haettenschweiler" size="4">"Minha pátria é minha língua"</FONT><BR>
+<FONT face="Comic Sans MS">Fala
+  <FONT color="green">M</FONT>
+  <FONT color="fuchsia">a</FONT>
+  <FONT color="green">n</FONT>
+  <FONT color="fuchsia">g</FONT>
+  <FONT color="green">u</FONT>
+  <FONT color="fuchsia">e</FONT>
+  <FONT color="green">i</FONT>
+  <FONT color="fuchsia">r</FONT>
+  <FONT color="green">a</FONT> !
+</FONT>(...)"</P>
+
+<p align="left"><font color="blue", face="Comic Sans MS" size="5">Casa Verde Amarela</font>
+
+<p>O atributo size especifica o tamanho da fonte. A fonte pode ter tamanho entre 1 (menor tamanho) e 7 (maior tamanho). Este atributo pode ser especificado de forma absoluta (p. ex.: FONT size="3"), ou de forma relativa (p. ex.: FONT size="+2").
+
+<P>Tamanho de fonte padrão</P>
+<P>
+<FONT size="1">Tamanho de fonte 1</FONT><BR>
+<FONT size="2">Tamanho de fonte 2</FONT><BR>
+<FONT size="3">Tamanho de fonte 3</FONT><BR>
+<FONT size="4">Tamanho de fonte 4</FONT><BR>
+<FONT size="5">Tamanho de fonte 5</FONT><BR>
+<FONT size="6">Tamanho de fonte 6</FONT><BR>
+<FONT size="7">Tamanho de fonte 7</FONT> </P>
+
+<P><FONT size="3">Tamanho de fonte 3,
+<FONT size="+2">agora acrescido de 2,</FONT>
+<FONT size="-1">reduzido de 1,</FONT>
+e normal novamente.</FONT></P>
+
+<p>Color. O atributo color especifica a cor da fonte. O valor deste atributo pode ser especificado através do nome da cor (como no exemplo acima) ou através de um código - este é o tema da próxima seção - cor.<br>
+Todos os três atributos do elemento FONT (face, size e color) podem ser usados concomitantemente, conforme ilustra o primeiro exemplo desta seção (fragmento da música "Língua").
+
+<pre>face=nome_fonte	
+Nome da fonte.
+
+size=número	
+Tamanho da fonte; valor entre 1 e 7.
+
+color=cor	
+Cor da fonte.</pre>
+<P><B>
+<FONT color="black">Preto</FONT><BR>
+<FONT color="gray">Cinza-escuro</FONT><BR>
+<FONT color="silver">Cinza-Claro</FONT>
+<FONT color="white">Branco</FONT><BR>
+<FONT color="red">Vermelho</FONT><BR>
+<FONT color="maroon">Vermelho-escuro</FONT><BR>
+<FONT color="yellow">Amarelo</FONT><BR>
+<FONT color="olive">Amarelo-escuro</FONT><BR>
+<FONT color="lime">Verde</FONT><BR>
+<FONT color="green">Verde-escuro</FONT><BR>
+<FONT color="aqua">Ciano</FONT><BR>
+<FONT color="teal">Ciano-escuro</FONT><BR>
+<FONT color="blue">Azul</FONT><BR>
+<FONT color="navy">Azul-escuro</FONT><BR>
+<FONT color="fuchsia">Magenta</FONT><BR>
+<FONT color="purple">Magenta-escuro</FONT><BR></B></p>	<p><font color="gray", face="Comic Sans MS", size="5"> Todos Atributos da <b>Font</b> </font> </p>
+
+<pre>Uma cor pode ser especificada através de seu nome, ou de seu código, conforme ilustra a tabela abaixo.
+
+	white	 #FFFFFF			black	#000000
+	silver	 #C0C0C0	 		gray	#808080
+	red	     #FF0000	 		maroon  #800000
+	yellow	 #FFFF00	 		olive	#808000
+	lime	 #00FF00	 		green	#008000
+	aqua	 #00FFFF	 		teal	#008080
+	blue	 #0000FF 	 		navy	#000080 
+	fuchsia  #FF00FF	 		purble	#800080</pre>
+
+<P>Para especificar o valor da cor<BR>
+<FONT color="Silver">utilize o nome</FONT><BR>
+<FONT color="c3c3c3">ou o código da cor.</FONT></P>
+
+Código das cores em HTML<br>
+Para compreender o código das cores na linguagem HTML, é preciso compreender o sistema RGB.
+
+<h5>Sistema RGB</h5>
+<p>A cor-luz é a cor observada através dos raios luminosos, é a própria luz que pode se decompor em muitas cores. Em relação à cor-luz, as cores primárias são vermelho-alaranjado, verde e azul. Em inglês, estas cores recebem as denominações Red, Green, Blue e constituem o sistema RGB. O monitor do computador trabalha com luz e utiliza este sistema de cores.

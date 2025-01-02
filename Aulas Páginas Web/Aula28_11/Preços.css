@@ -1,0 +1,15 @@
+.row{
+    margin-top: 20px;
+}
+
+.img-thumbnail h3{
+    font-size: 1.4em;
+}
+
+.img-thumbnail p{
+    font-size: 0.9em;
+}
+
+.img-thumbnail img{
+    width: 55%;
+}

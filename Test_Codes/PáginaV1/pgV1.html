@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icone da Página junto com o Nome -->
+    <link rel="website icon" type="png" href="https://img.icons8.com/bubbles/100/folder-invoices.png">
+    <!-- Link Icones e Font Usada -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="pgV1.css">
+    <link rel="stylesheet" href="pgNavBar.css">
+    <title>PáginaV1</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" name="" id="chk1">
+        <div class="logo"><h1> <pre>Tecnologia     DEV</pre></h1></div>
+        <div class="search-box">
+            <form action="">
+                <input type="text" name="search" id="srch" placeholder="Search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li>
+                    <a target="_blank" href="https://pt-br.facebook.com/login.php"><i class="fab fa-facebook"></i></a>
+                    <a target="_blank" href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/?hl=pt-br"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+
+            <div class="menu">
+                <label for="chk1"><i class="fa fa-bars"></i></label>
+            </div>
+        </div>
+    </header>
+
+    <!-- Teste de Imagens em Caixas -->
+    <div class="Caixas">
+        <div class="Box"><img src="pgV1_img/Computer.png"></div>
+        <div class="Box"><img src="pgV1_img/Lente.png"></div>
+        <div class="Box"><img src="pgV1_img/TecladoCMD.jpg"></div>
+        <div class="Box"><img src="pgV1_img/Earth.png"></div>
+        <div class="Box"><img src="pgV1_img/ti.jpg"></div>
+    </div>
+
+        <style>
+            .Caixas{
+                width: 90%;
+                padding: 10px;
+                background: #ddd;
+                margin: 100px auto;
+                display: flex; /*Flex: Desloca com a Página*/
+                justify-content: center; /*Center: Coloca as Caixas ao Centro*/
+            }
+
+            .Box{
+                width: 250px; /*Largura*/
+                height: 300px; /*Altura*/
+                background: orange;
+                margin: 0px 10px;
+                transition: 0.8s; /*Tempo que leva a Caixa Mudar de Forma*/
+            }
+
+            .Box:hover{
+                transform: scale(1.15); /*Quanto amais a Caixa aumenta*/
+                background: #ff800a;
+                box-shadow: 2px 2px 2px #000;
+                z-index: 2;
+            }
+        </style>
+
+    <!-- Galeria de Fotos -->
+    <div class="Gallery">
+        <img class="Gallery_img" src="pgV1_img/Gallery.png" alt="">
+        <img class="Gallery_img"src="pgV1_img/Gallery1.png" alt="">
+        <img class="Gallery_img"src="pgV1_img/Gallery2.png" alt="">
+        <img class="Gallery_img"src="pgV1_img/Gallery3.png" alt="">
+        <img class="Gallery_img"src="pgV1_img/Gallery4.png" alt="">
+        <img class="Gallery_img"src="pgV1_img/Gallery5.png" alt="">
+        <img class="Gallery_img"src="pgV1_img/Gallery7.png" alt="">
+        <img class="Gallery_img"src="pgV1_img/Gallery8.png" alt="">
+        <img class="Gallery_img"src="pgV1_img/Gallery9.png" alt="">
+    </div>
+
+    <style>
+        .Gallery{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .Gallery_img{
+            width: 400px;
+            height: 300px;
+            border: 2px solid #ff3d0036;
+            border-radius: 13px;
+            box-shadow: 4px 7px 7px 0px #00000042;
+            cursor: pointer;
+            margin: 10px;
+            transition: 400ms;
+        }
+
+        .Gallery_img:hover{
+            filter: grayscale(1);
+            transform: scale(1.03);
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2 linear;
+    font-family: "Roboto", serif;
+    transition: 0.2s linear;
+}
+
+body{
+    background-image: url(https://image.freepik.com/vetores-gratis/fundo-sem-emenda-de-doces_98292-5136.jpg);
+}
+
+h1{
+    background-color: #7e22ce;
+    margin: 10px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    transition: 0.5s;
+}
+
+p{
+    color: black;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+    text-align: left;
+    text-transform: initial;
+    justify-content: center;
+}
+
+.TextoHistory{
+    width: 95%;
+    height: 78%;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
